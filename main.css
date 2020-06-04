@@ -1,24 +1,59 @@
-*{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html,
+body{
     height: 100%;
     width: 100%;
 }
+.contents{
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .contents {
+        width: 100%;
+        padding: 0;
+    }
+}
 
 .section1{
+    height: 100%;
     background-color:grey;
+}
+.section1 h2{
+    padding-top: 30px;
+    margin-left: 30px;
+    color:#FA7705;
+}
+.section1 h1{
+    margin-top: 30px;
+    margin-left: 30px;
+    color:white;
+}
+.section1 h4{
+    margin-top: 30px;
+    margin-left: 30px;
+    color:black;
 }
 
 .section2{
+    height: 100%;
     background-color:black;
 }
 
 .section3{
+    height: 100%;
     background-color:grey;
 }
 
 .section4{
+    height: 100%;
     background-color:black;
 }
 
 .section5{
+    height: 100%;
     background-color:grey;
 }
