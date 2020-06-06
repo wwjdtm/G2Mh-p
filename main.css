@@ -69,10 +69,10 @@ section h1, section h3, section h4, .footer h4{
 }
 
 .image{
-    background-image: url('image.jpg');
+    background: url('image.jpg') center center;
     width: 100%;
     height: 300px;
-    background-size: 100% 300px;
+    background-size: cover;
 }
 
 .section2{
@@ -81,6 +81,7 @@ section h1, section h3, section h4, .footer h4{
 .section2 h2{
     color:white;
     font-size: 20px;
+   
 }
 .section2 h1{
     color:white;
@@ -91,21 +92,51 @@ section h1, section h3, section h4, .footer h4{
     margin-left: 150px;
     margin-top: 30px;
 }
+.partline{
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 10px;
+}
 
 .part1, .part2, .part3{
+    padding-top: 20px;
     float: left;
-    /* text-align: center; */
+    
+}
+.part1 h2, .part2 h2{
+    padding-top: 10px;
+}
+.part3 h2{
+    padding-top: 0;
 }
 .part1{
-    padding-left: 250px;
+    padding-left: 200px;
+}
+.part1 img{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.part2 img{
+    margin-top: 20px;
+    margin-left:150px;
 }
 
-.part1 ul, .part2 ul, .part3 ul{
-    margin-top:20px;
-    margin-left:100px;
+.part3 img{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.part2 ul, .part3 ul{
+    padding-top: 10px;
+    margin-left:140px;
+    color: white;
+    height: 100px;
+}
+.part1 ul{
+    padding-top: 10px;
+    margin-left:120px;
     color: white;
 }
-
 
 .section3{
     background-color:white;
