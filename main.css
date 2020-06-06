@@ -15,7 +15,7 @@ body{
 
 .container {
     height:100%;
-    width:100%;
+    width:1200px;
     margin:0 auto;
 }
 
@@ -24,6 +24,7 @@ body{
         width: 100%;
         padding: 0;
     }
+    .container{ width:100%;}
 }
 
 .logo{
@@ -41,13 +42,10 @@ section{
 }
 
 section h2{
-    padding-top: 80px;
-    margin-left: 150px;
 
 }
 section h1, section h3, section h4, .footer h4{
     padding-top: 30px;
-    margin-left: 150px;
 }
 
 .section1{
@@ -88,53 +86,26 @@ section h1, section h3, section h4, .footer h4{
     font-size: 30px;
 }
 .sec2line{
-    width: 80%;
-    margin-left: 150px;
     margin-top: 30px;
 }
 .partline{
-    width: 90%;
-    margin-left: 60px;
     margin-top: 10px;
 }
 
-.part1, .part2, .part3{
-    padding-top: 20px;
+.part{
+    text-align:center;
     float: left;
     
 }
-.part1 h2, .part2 h2{
-    padding-top: 10px;
-}
-.part3 h2{
-    padding-top: 0;
-}
-.part1{
-    padding-left: 200px;
-}
-.part1 img{
-    margin-top: 20px;
-    margin-left: 120px;
-}
-.part2 img{
-    margin-top: 20px;
-    margin-left:150px;
+.section2 .part1 h2, .part2 h2{
+
 }
 
-.part3 img{
-    margin-top: 30px;
-    margin-left: 140px;
-}
 
-.part2 ul, .part3 ul{
-    padding-top: 10px;
-    margin-left:140px;
+.section2 .part2 ul, .part3 ul{
     color: white;
-    height: 100px;
 }
-.part1 ul{
-    padding-top: 10px;
-    margin-left:120px;
+.section2 .part1 ul{
     color: white;
 }
 
@@ -145,20 +116,16 @@ section h1, section h3, section h4, .footer h4{
 .section3 h2{
     color: #21857C;
     text-align: right;
-    padding-right: 150px;
 }
 .section3 h3{
     padding-top:50px;
     text-align: right;
-    padding-right: 150px;
 }
 
 .section3 table{
     height: 550px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
+    width:100%;
     text-align: center;
     border-collapse: collapse;
     
@@ -170,7 +137,7 @@ td,th{
 
 }
 th{
-    font-size: 15x;
+    font-size: 15px;
 }
 
 
