@@ -17,6 +17,7 @@ body{
     height:100%;
     width:1200px;
     margin:0 auto;
+    padding-top: 100px;
 }
 
 @media screen and (max-width: 800px) {
@@ -28,31 +29,24 @@ body{
 }
 
 .logo{
-    height: 120px;
+    height: 100px;
     width: 100%;
-    background-color: white;
-}
-
-.logo img{
-    padding-right: 100px;
+    background-color: #0a0019;
 }
 
 section{
     height: 100%;
 }
 
-section h2{
-
-}
 section h1, section h3, section h4, .footer h4{
     padding-top: 30px;
 }
 
 .section1{
-    background-color:#1c2a6b;
+    background-color:#0a0019;
 }
 .section1 h2{
-    color:#21857C;
+    color:#c4bf23;
     font-size: 30px;
     font-family: raleway-semibold,raleway,sans-serif;
 }
@@ -74,7 +68,7 @@ section h1, section h3, section h4, .footer h4{
 }
 
 .section2{
-    background-color:#2d3477;
+    background-color:#0a0019;
 }
 .section2 h2{
     color:white;
@@ -89,24 +83,22 @@ section h1, section h3, section h4, .footer h4{
     margin-top: 30px;
 }
 .partline{
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .part{
     text-align:center;
     float: left;
+    margin-top: 30px;
+    margin-left: 150px;
     
 }
-.section2 .part1 h2, .part2 h2{
 
-}
-
-
-.section2 .part2 ul, .part3 ul{
+.section2 .part1 ul, .part2 ul, .part3 ul{
     color: white;
-}
-.section2 .part1 ul{
-    color: white;
+    text-align: left;
+    line-height: 25px;
 }
 
 .section3{
@@ -114,7 +106,7 @@ section h1, section h3, section h4, .footer h4{
 }
 
 .section3 h2{
-    color: #21857C;
+    color: #c4bf23;
     text-align: right;
 }
 .section3 h3{
@@ -131,8 +123,8 @@ section h1, section h3, section h4, .footer h4{
     
 }
 td,th{
-    border-top: 1.5px solid #21857C;
-    border-bottom: 1.5px solid #21857C;
+    border-top: 1.5px solid #c4bf23;
+    border-bottom: 1.5px solid #c4bf23;
     padding: 10px;
 
 }
@@ -142,13 +134,13 @@ th{
 
 
 .section3 table th{
-    color:#21857C;
+    color:#c4bf23;
 }
 
 
 
 .section4{
-    background-color:#21857C;
+    background-color:#c4bf23;
 }
 
 .section5{
@@ -156,8 +148,22 @@ th{
 }
 
 .footer{
-    width: 100%;
-    height: 10%;
-    background-color:#2d3477;
-    color: white;
+    height: 15%;
+    background-color:#c4bf23;
+    color: black;
+    padding-left: 30px;
+    margin: 0 auto;
 }
+
+.imimg{
+    float: left;
+    /* margin-right: 30px;
+    margin-top: 20px; */
+    margin: 10px 30px 0 100px;
+    
+}
+.imformation h4{
+    /* text-align: right; */
+    line-height: 20px;
+}
+
