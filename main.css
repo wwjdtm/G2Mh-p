@@ -46,7 +46,7 @@ section h1, section h3, section h4, .footer h4{
     background-color:#0a0019;
 }
 .section1 h2{
-    color:#c4bf23;
+    color:#D9D443;
     font-size: 30px;
     font-family: raleway-semibold,raleway,sans-serif;
 }
@@ -98,7 +98,7 @@ section h1, section h3, section h4, .footer h4{
 .section2 .part1 ul, .part2 ul, .part3 ul{
     color: white;
     text-align: left;
-    line-height: 25px;
+    line-height: 22px;
 }
 
 .section3{
@@ -106,7 +106,7 @@ section h1, section h3, section h4, .footer h4{
 }
 
 .section3 h2{
-    color: #c4bf23;
+    color: #D9D443;
     text-align: right;
 }
 .section3 h3{
@@ -122,25 +122,37 @@ section h1, section h3, section h4, .footer h4{
     border-collapse: collapse;
     
 }
-td,th{
-    border-top: 1.5px solid #c4bf23;
-    border-bottom: 1.5px solid #c4bf23;
+.section3 td,.section3 th{
+    border-top: 1.5px solid #D9D443;
+    border-bottom: 1.5px solid #D9D443;
     padding: 10px;
 
 }
-th{
+.section3 th{
     font-size: 15px;
+    color:#D9D443;
 }
-
-
-.section3 table th{
-    color:#c4bf23;
-}
-
-
 
 .section4{
-    background-color:#c4bf23;
+    background-color:#D9D443;
+    color: #555555;
+   
+}
+.section4 h1{
+    font-size: 30px;
+}
+
+.section4 table{
+    text-align: left;
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+.section4 td,.section4 th{
+    border-bottom: 1.5px solid #0a0019;
+    padding: 10px;
+
 }
 
 .section5{
@@ -149,21 +161,18 @@ th{
 
 .footer{
     height: 15%;
-    background-color:#c4bf23;
-    color: black;
+    background-color:#D9D443;
     padding-left: 30px;
-    margin: 0 auto;
+    color: #8E8D57;
 }
 
 .imimg{
     float: left;
-    /* margin-right: 30px;
-    margin-top: 20px; */
     margin: 10px 30px 0 100px;
     
 }
-.imformation h4{
-    /* text-align: right; */
+.imformation h5{
+    padding-top: 30px;
     line-height: 20px;
 }
 
