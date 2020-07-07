@@ -6,6 +6,7 @@ html{
 * {
     margin: 0;
     padding: 0;
+    font-family: raleway,sans-serif;
 }
 html,
 body{
@@ -13,6 +14,16 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+
+body {
+    scroll-snap-type: y proximity;
+}
+
+.section1, .section2, .image, .section3,.section4a, .section4, .section5, .footer {
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
 .contents{
     height: 100%;
     width: 100%;
@@ -26,13 +37,7 @@ body{
     padding-top: 100px;
 }
 
-@media screen and (max-width: 800px) {
-    .contents, .container {
-        width: 100%;
-        padding: 0;
-    }
-    .container{ width:100%;}
-}
+
 
 .logo{
     height: 100px;
@@ -52,7 +57,7 @@ section h1, section h3, section h4, .footer h4{
     background-color:#0a0019;
 }
 .section1 h2{
-    color:#D9D443;
+    color:#F5C118;
     font-size: 30px;
     font-family: raleway-semibold,raleway,sans-serif;
 }
@@ -83,10 +88,10 @@ section h1, section h3, section h4, .footer h4{
     background-size: cover;
     
 }
-span {
+.g2mpartners span {
     font-family: raleway-semibold,raleway,sans-serif;
     position: sticky;
-    top: calc(30% - 90px);
+    top: calc(40% - 90px);
     height: 100px;
     display: inline-flex;
     align-items: center;
@@ -108,11 +113,14 @@ span {
 .section2 h2{
     color:white;
     font-size: 20px;
+    font-family: raleway-semibold,raleway,sans-serif;
+    
    
 }
 .section2 h1{
     color:white;
     font-size: 30px;
+    
 }
 .sec2line{
     margin: 30px 0;
@@ -147,8 +155,8 @@ span {
 }
 
 .section3 h2{
-    color: #D9D443;    font-size:2rem;
-
+    color: #F5C118;    font-size:2rem;
+    font-family: raleway-semibold,raleway,sans-serif;
     text-align: right;
 }
 .section3 h3{
@@ -165,8 +173,8 @@ span {
     
 }
 .section3 td,.section3 th{
-    border-top: 1.5px solid #0a0019;
-    border-bottom: 1.5px solid #0a0019;
+    border-top: 2px solid #0a0019;
+    border-bottom: 2px solid #0a0019;
     padding: 10px;
 
 }
@@ -174,34 +182,174 @@ span {
     font-size: 15px;
     color:#0a0019;
 }
+.section4a{
+    background-color: #0a0019;
+    text-align:center;
+}
+
+.sec4aline{
+    margin: 30px 0;
+    border:1px solid #F5C118;
+}
+
+
+.section4a h2{
+    color: white;
+    font-size: 3rem;
+    font-family: raleway,sans-serif;
+}
+.section4a h3{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+
+    
+}
+.part4a{
+    text-align:left;
+    display:inline-block;
+    vertical-align: top;
+    
+}
+
+.section4a h1{ text-align:left;}
+.section4a {
+    text-align:center;
+}
+
+.section4a .part1-1 ul, .section4a .part2-1 ul, .section4a .part3-1 ul{
+    color: white;
+    text-align: left;
+    list-style: none;
+}
+.section4a ul li {line-height:20px;}
+
+.part1-2, .part2-2, .part3-2{
+    font-size: 0.7rem;
+    line-height: 5px;
+    color: white;
+    margin-right: 5px;
+    
+    
+}
+.part1-1,.part2-1,.part3-1{
+    border-top:3px solid #F5C118;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 0.8rem;
+}
+
 
 .section4{
-    background-color:#0a0019;
-    color: #fff;
+    background-color:#F5C118;
+    color: black;
     height: 700px;
    
 }
-.section4 h1{
+.section4 .lat_title a{
+    color:black;
+    text-decoration:none;
     font-size: 3rem;
     padding-top: 10px;
+    font-family: raleway,sans-serif;
+    border-bottom: solid 2px black;
 }
 
-.section4 table{
-    color:#fff;
-    text-align: left;
-    width: 100%;
-    margin-top: 50px;
-    border-collapse: collapse;
+.section4 .lat ul {
+    list-style:none;
+    font-size: 1.2em;
 }
 
-.section4 td,.section4 th{
-    border-bottom: 1.5px solid #fff;
-    padding: 10px;
+.section4 .lat ul li{
+    border-bottom: solid 1px black;
+    padding: 20px 10px;
+}
+
+.section4 .lat ul li .lt_info {float:right;}
+
+.section4 .lat ul li span {float:left;}
+
+.section4 .new_icon, .section4 .sound_only{
+    display: none;
 
 }
+.section4 ul a{
+    color: black;
+    text-decoration:none;
+}
+
+.section4 .lt_date{
+    display: none;
+}
+.section4 .sv_member{
+    display: none;
+}
+
+.section4 .lt_more{
+    width: 100px;
+    float: right;
+    font-size: 20px;
+    display: block;
+    color: white;
+    background: #0a0019;
+    margin-top: 30px;
+    padding : 10px;
+    text-align: center;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
 
 .section5{
     background-color:white;
+}
+
+.section5 h1{
+    font-size: 3rem;
+    padding-top: 10px;
+    font-family: raleway,sans-serif;
+    color: #0a0019;
+}
+
+.sendemail{
+    margin-top: 20px;
+    line-height: 40px;
+    font-family: raleway-semibold,raleway,sans-serif;
+    font-size: 20px;
+    
+}
+
+.sendemail input[type="text"], .sendemail textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(160, 160, 160, 1);
+    outline: none;
+    padding:10px;
+    margin-bottom: 20px;
+    
+}
+.sendemail textarea {height:200px;}
+
+
+
+.sendemail input[name="comment"]{
+    height: 130px;
+}
+
+.sendemail input[type="submit"], input[type="reset"]{
+    width: 80px;
+    height: 40px;
+    background-color: #0a0019;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border:none;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .footer{
@@ -221,3 +369,24 @@ span {
     line-height: 20px;
 }
 
+
+@media screen and (max-width: 800px) {
+    .contents, .container {
+        width: 100%;
+        padding: 0;
+    }
+    .container{ width:100%; }
+    section { height:auto;}
+    .section1 {padding:15px; font-size:.8rem;}
+    .g2mpartners span {
+        font-size: 50px;
+      }
+      .section2 {padding:30px 15px;}
+      .part { margin:0;}
+      .section3 {padding:40px 0;}
+      .section4 {padding:40px 15px;}
+      .section5 {padding:30px 15px;}
+      .section5 input[type="text"], .section5 textarea {width:90%}
+      .footer {clear:both; margin-top:30px; padding:15px 0; height:auto; font-size:0.9em;}
+      .footer .imimg {width:100px; height:auto; margin:0; margin-top:30px; padding:15px;}
+}
