@@ -22,9 +22,11 @@ include_once(G5_LIB_PATH.'/latest.lib.php');
 <!DOCTYPE html>
 <html lang="kr">
     <head>
+       
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
         <title>G2M PARTNERS</title>
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
@@ -117,7 +119,7 @@ include_once(G5_LIB_PATH.'/latest.lib.php');
                         
                             <ul>
                                 <li>G2M PARTNERS 이사</li>
-                                <li>한성대학교<br>컨설팅연구원 연구실장</li>
+                                <li>한성대학교<br>컨설팅대학원 특임교수</li>
                                 <li>前 기업은행<br>컨설팅센터 책임</li>    
                                 <li>前 씨스톤컨설팅<br>경영컨설팅 팀장</li>
                                 <li>前 조선호텔<br>인사팀 사원</li>
@@ -147,7 +149,7 @@ include_once(G5_LIB_PATH.'/latest.lib.php');
                         
                             <ul>
                                 <li>G2M PARTNERS 컨설팅 이사</li>
-                                <li>한성대학교<br>컨설팅대학원 초빙교수</li>
+                                <li>한성대학교<br>컨설팅대학원 특임교수</li>
                                 <li>前 솔로몬투자증권</li>
                                 <li>前 TOBE컨설팅</li>
                                 

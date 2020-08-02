@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@font-face{
+    font-family: "raleway";
+    src: url("./Raleway-Medium.ttf");
+}
+@font-face{
+    font-family: "raleway-semibold";
+    src: url("./Raleway-SemiBold.ttf");
+}
 html{
     scroll-behavior: smooth;
 }
@@ -6,7 +15,8 @@ html{
 * {
     margin: 0;
     padding: 0;
-    font-family: raleway,sans-serif;
+    font-family: 'Noto Sans KR',raleway,sans-serif;
+    
 }
 html,
 body{
@@ -34,7 +44,7 @@ body {
     height:100%;
     width:1200px;
     margin:0 auto;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 
@@ -59,7 +69,7 @@ section h1, section h3, section h4, .footer h4{
 .section1 h2{
     color:#F5C118;
     font-size: 30px;
-    font-family: raleway-semibold,raleway,sans-serif;
+    font-family: raleway-semibold,raleway,'Noto Sans KR',sans-serif;
 }
 .section1 h1{
     color:white;
@@ -68,11 +78,12 @@ section h1, section h3, section h4, .footer h4{
 .section1 h4{
     color:rgb(221, 219, 219);
     font-size: 20px;
-    font-family: raleway,sans-serif;
+    font-family: raleway,'Noto Sans KR',sans-serif;
 }
 .g2mpartners {
     display: flex;
     font-size: 60px;
+    left: 0;
     align-items: flex-start;
     justify-content: center;
     background-color:#0a0019;
@@ -82,14 +93,16 @@ section h1, section h3, section h4, .footer h4{
 
 .image{
     position: absolute;
-    background: url('image.jpg') center center;
+    background: url('image.jpg') center center ;
     width: 100%;
     height: 300px;
     background-size: cover;
     
+    
 }
+
 .g2mpartners span {
-    font-family: raleway-semibold,raleway,sans-serif;
+    font-family: raleway-semibold,raleway,'Noto Sans KR',sans-serif;
     position: sticky;
     top: calc(40% - 90px);
     height: 100px;
@@ -113,7 +126,7 @@ section h1, section h3, section h4, .footer h4{
 .section2 h2{
     color:white;
     font-size: 20px;
-    font-family: raleway-semibold,raleway,sans-serif;
+    font-family: raleway-semibold,raleway,'Noto Sans KR',sans-serif;
     
    
 }
@@ -148,7 +161,7 @@ section h1, section h3, section h4, .footer h4{
     line-height: 22px;
 }
 
-.section2 ul li {line-height:25px;}
+.section2 ul li {line-height:20px;}
 
 .section3{
     background-color:white;
@@ -156,11 +169,11 @@ section h1, section h3, section h4, .footer h4{
 
 .section3 h2{
     color: #F5C118;    font-size:2rem;
-    font-family: raleway-semibold,raleway,sans-serif;
+    font-family: raleway-semibold,raleway,'Noto Sans KR',sans-serif;
     text-align: right;
 }
 .section3 h3{
-    padding-top:50px;
+    padding-top:30px;
     text-align: right;
 }
 
@@ -196,7 +209,7 @@ section h1, section h3, section h4, .footer h4{
 .section4a h2{
     color: white;
     font-size: 3rem;
-    font-family: raleway,sans-serif;
+    font-family: raleway,'Noto Sans KR',sans-serif;
 }
 .section4a h3{
     color: white;
@@ -236,7 +249,7 @@ section h1, section h3, section h4, .footer h4{
 .part1-1,.part2-1,.part3-1{
     border-top:3px solid #F5C118;
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 12px;
     font-size: 0.8rem;
 }
 
@@ -244,7 +257,6 @@ section h1, section h3, section h4, .footer h4{
 .section4{
     background-color:#F5C118;
     color: black;
-    height: 700px;
    
 }
 .section4 .lat_title a{
@@ -252,7 +264,7 @@ section h1, section h3, section h4, .footer h4{
     text-decoration:none;
     font-size: 3rem;
     padding-top: 10px;
-    font-family: raleway,sans-serif;
+    font-family: raleway,'Noto Sans KR',sans-serif;
     border-bottom: solid 2px black;
 }
 
@@ -309,14 +321,14 @@ section h1, section h3, section h4, .footer h4{
 .section5 h1{
     font-size: 3rem;
     padding-top: 10px;
-    font-family: raleway,sans-serif;
+    font-family: raleway,'Noto Sans KR',sans-serif;
     color: #0a0019;
 }
 
 .sendemail{
     margin-top: 20px;
     line-height: 40px;
-    font-family: raleway-semibold,raleway,sans-serif;
+    font-family: raleway-semibold,raleway,'Noto Sans KR',sans-serif;
     font-size: 20px;
     
 }
@@ -357,6 +369,7 @@ section h1, section h3, section h4, .footer h4{
     background-color:#0a0019;
     padding-left: 30px;
     color: rgb(221, 219, 219);
+    
 }
 
 .imimg{
