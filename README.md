@@ -1,3 +1,3 @@
 # G2Mh-p
 
-g2mpartners.net
+<http://g2mpartners.net>
